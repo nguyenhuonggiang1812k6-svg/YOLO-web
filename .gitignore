@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Docker & Environment
+.env
+*.env
+
+# YOLO weights & runs
+*.pt
+runs/
+temp/
